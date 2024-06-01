@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+
+	<!-- Fontawesome -->
+	<script defer src="./libs/fontawesome-free-5.15.3-web/js/solid.min.js"></script>
+	<script defer src="./libs/fontawesome-free-5.15.3-web/js/brands.min.js"></script>
+	<script defer src="./libs/fontawesome-free-5.15.3-web/js/fontawesome.min.js"></script>
+
+	<!-- Cropperjs -->
+	<link rel="stylesheet" href="libs/cropperjs/cropper.min.css">
+
+	<title>جهادِ جهش</title>
+
+	<meta name="description" content="جهاد بزرگ برای جهش ایران | عکس پروفایل خودت رو بساز">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./site.webmanifest">
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#10256c">
+
+	<meta property="og:image:width" content="256">
+	<meta property="og:image:height" content="256">
+	<meta property="og:url" content="https://meghdadkhodadad.com/jalili/jalili-profile/">
+	<meta property="og:image" content="https://meghdadkhodadad.com/jalili/jalili-profile/og-image.jpg">
+	<meta property="og:description" content="جهاد بزرگ برای جهش ایران | عکس پروفایل خودت رو بساز">
+	<meta property="og:title" content="جهادِ جهش">
+
+	<link rel="stylesheet" href="./stylesheets/style.css?version=0.0.0">
+
+	<link rel="manifest" href="/manifest.json">
+	<!-- Najva Push Notification -->
+	<!--<script type="text/javascript">
+		(function () {
+			var now = new Date();
+			var version = now.getFullYear().toString() + "0" + now.getMonth() + "0" + now.getDate() +
+				"0" + now.getHours();
+			var head = document.getElementsByTagName("head")[0];
+			var link = document.createElement("link");
+			link.rel = "stylesheet";
+			link.href = "https://app.najva.com/static/css/local-messaging.css" + "?v=" + version;
+			head.appendChild(link);
+			var script = document.createElement("script");
+			script.type = "text/javascript";
+			script.async = true;
+			script.src = "https://app.najva.com/static/js/scripts/meghdadkhodadad358-website-26868-c5419119-0f46-4ad0-ad03-53abe03c9abd.js" + "?v=" + version;
+			head.appendChild(script);
+		})()
+	</script>-->
+	<!-- END NAJVA PUSH NOTIFICATION -->
+</head>
+
+<body>
+	<div class="container-sm" style="min-width: 375px; max-width: 800px;">
+		<div class="row justify-content-center" style="min-height: 226px;" id="smapleResultContainer">
+			<div class="col-7 col-sm-6 col-md-5">
+				<img src="images/sample-result.jpeg"
+					class="rounded-circle  mx-auto my-3 mb-4 d-block img-fluid sample-image" alt="عکس نمونه">
+			</div>
+		</div>
+
+		<!-- Najva enable notification button -->
+		<div class="custom-link-container text-center" id="b18098a4-b006-4d97-a9cd-1340cdd99eab"></div>
+      
+		<div class="row  mb-4 mt-5">
+			<div class="col text-center">
+				<h2>عکست رو بده پروفایلتو تحویل بگیر!</h2>
+			</div>
+		</div>
+		<div class="row mb-5 section-one">
+			<div class="col">
+				<form id='mainForm'>
+					<div class="profile-pic-wrapper">
+
+						<div class="pic-holder">
+							<!-- uploaded pic shown here -->
+							<!-- <img id="profilePic" class="pic" src="./images/avatar-placeholder.png"> -->
+							<img id="profilePreview" class="pic is-empty" src="./images/avatar-placeholder.png">
+
+							<label for="profileImgInput" class="upload-file-block">
+								<div class="text-center">
+									<div class="mb-2">
+										<i class="fa fa-camera fa-2x"></i>
+									</div>
+									<div class="text-uppercase">
+										انتخاب یا <br /> تغییر عکس
+									</div>
+								</div>
+							</label>
+							<!-- <Input class="uploadProfileInput" type="file" name="profile_pic" id="newProfilePhoto"
+								accept="image/*" style="display: none;" /> -->
+							<Input class="uploadProfileInput" type="file" name="profile_pic" id="profileImgInput"
+								accept="image/*" style="display: none;" />
+						</div>
+						</hr>
+						<!-- <p class="text-info text-center small">آپلود عکس -->
+
+					</div>
+					<div class="row g-3">
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input float-none ms-1" id="contactInfoToggle">
+							<label class="form-check-label user-select-none" for="contactInfoToggle"
+								name="send_contact_info"> <small class="text-muted">تمایل دارم اطلاعات تماس خود را وارد
+									کنم.</small></label>
+						</div>
+						<!-- Collapse -->
+						<div>
+							<div class="collapse" id="collapseFormSection">
+								<div class="card card-body border-0 p-0">
+									<div class="row g-3">
+										<div class="col-6 ">
+											<div class="form-floating">
+												<input type="text" class="form-control" id="floatingInputGrid"
+													name="name" placeholder="نام خود را وارد کنید" value="">
+												<label for="floatingInputGrid" style="left:unset; right: 0;">نام و نام
+													خانوادگی</label>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="form-floating">
+												<input type="text" class="form-control" id="floatingInputGrid"
+													name="job" placeholder="شغل خود را وارد کنید" value="">
+												<label for="floatingInputGrid" style="left:unset; right: 0;">شغل</label>
+											</div>
+										</div>
+										<div class="col-6">
+											<select id="provinceSelect" name="province" class="form-select"
+												aria-label="province select"
+												style="padding: .375rem 0.75rem .375rem  2.25rem; background-position: left 0.75rem center;">
+												<option selected disabled>استان</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<select id="citySelect" disabled name="city" class="form-select"
+												aria-label="city select"
+												style="padding: .375rem 0.75rem .375rem  2.25rem; background-position: left 0.75rem center;">
+											</select>
+										</div>
+										<div class="col-6">
+											<div class="input-group  flex-row-reverse">
+												<span class="input-group-text" id="basic-addon1"><i
+														class="fas fa-phone"></i></span>
+												<input type="text" class="form-control text-start"
+													style="direction: ltr;" name="callNumber" placeholder="شماره تماس"
+													aria-label="call number" aria-describedby="basic-addon1">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="input-group flex-row-reverse">
+												<span class="input-group-text"><i class="fab fa-whatsapp"></i></span>
+												<input type="text" class="form-control text-start"
+													style="direction: ltr;" name="whatsappNumber"
+													placeholder="شماره واتساپ" aria-label="whatsapp number">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="input-group  flex-row-reverse">
+												<span class="input-group-text"><i class="fab fa-instagram"></i></span>
+												<input type="text" class="form-control text-start"
+													style="direction: ltr;" name="instagramId" placeholder="اینستاگرام"
+													aria-label="instagram id">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="input-group flex-row-reverse">
+												<span class="input-group-text"><i
+														class="fab fa-telegram-plane"></i></span>
+												<input type="text" class="form-control text-start"
+													style="direction: ltr;" name="telegramId" placeholder="تلگرام"
+													aria-label="telegram id">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Progress Bar -->
+						<div class="row mt-3 justify-content-center progress-container" style="display: none;">
+							<div class="col-6">
+								<div class="progress" style="height:0.3rem;">
+									<div class="progress-bar bg-success" role="progressbar" style="width: 0%"
+										aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<!-- <input type="submit" value="ارسال" class="btn btn-primary d-block mx-auto"> -->
+							<button id="uploadBtn" type="button" class="btn btn-primary d-block mx-auto">
+								<!-- <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+								در حال بارگذاری... -->
+								ارسال
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="row mb-2 d-none section-two">
+			<div class="d-flex flex-column justify-content-center align-items-center mt-5">
+				<div class="spinner-border text-danger mb-3" role="status" aria-hidden="true"></div>
+				<strong>در حال آماده سازی عکس پروفایل...</strong>
+			</div>
+		</div>
+		<div class="row mb-2 d-none section-three">
+			<div class="row col">
+				<p class="text-center text-success"><strong>عکس پروفایل شما آماده است:</strong></p>
+			</div>
+			<div class="col-12 row">
+				<div class="col-4">
+					<a download="" href="" class="d-flex flex-column align-items-center">
+						<img id="resultImageOne" src=""
+							class="rounded-circle image-result mx-auto my-1 d-block img-fluid sample-image"
+							alt="عکس پروفایل">
+						<span>دانلود</span>
+					</a>
+				</div>
+				<div class="col-4">
+					<a download="" href="" class="d-flex flex-column align-items-center">
+						<img id="resultImageTwo" src=""
+							class="rounded-circle image-result mx-auto my-1 d-block img-fluid sample-image"
+							alt="عکس پروفایل">
+						<span>دانلود</span>
+					</a>
+				</div>
+				<div class="col-4">
+					<a download="" href="" class="d-flex flex-column align-items-center">
+						<img id="resultImageThree" src=""
+							class="rounded-circle   image-result mx-auto my-1 d-block img-fluid sample-image"
+							alt="عکس پروفایل">
+						<span>دانلود</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-12">
+				<button id="resetBtn" type="button" class="btn btn-outline-secondary btn-sm d-block mx-auto my-5">
+					ساخت عکس جدید
+					<i class="fa fa-redo"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Button trigger modal -->
+	<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cropperModal">
+		cropper
+	</button> -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="cropperModal" data-bs-backdrop="static" tabindex="-1" role="dialog"
+		aria-labelledby="cropperModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="cropperModalLabel">برش عکس <i class="fas fa-crop"></i></h5>
+					<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button> -->
+				</div>
+				<div class="modal-body">
+					<div class="img-container">
+						<img id="cropperImage" src="">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" id="changeImgBtn" class="btn btn-outline-secondary" style="margin-left: auto;"
+						id="crop">تغییر
+						عکس <i class="fas fa-camera"></i></button>
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">انصراف</button>
+					<button type="button" class="btn btn-primary"
+						id="crop">&nbsp;&nbsp;&nbsp;&nbsp;برش&nbsp;&nbsp;&nbsp;&nbsp;</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Toast -->
+	<div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+	</div>
+
+
+
+	<script src="./libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+		crossorigin="anonymous"></script> -->
+	<script src="./libs/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+
+	<script src="libs/cropperjs/cropper.min.js"></script>
+
+	<script src="./data/provinces.js"></script>
+	<script src="./javascripts/app.js?version=0.0.0"></script>
+</body>
+
+</html>
