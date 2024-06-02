@@ -2,10 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.send('Hello, this is a plain text response!');
-
-  //res.render('index', { title: 'Express' });
+router.get('/', function(req, res) {
+  res.send('Api is On .')
 });
 
 module.exports = router;
