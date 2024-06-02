@@ -1,6 +1,6 @@
 const CANVAS_WITH = 320;
 const CANVAS_HEIGHT = 320;
-const IP = '127.0.0.1';
+const IP = '193.151.149.230';
 var API_BASE_URL = 'http://'+IP+':3000/api';
 
 let cropper;
